@@ -27,8 +27,7 @@ jobs:
         source venv/bin/activate
         pip install -r requirements.txt
 
-    - name: Start MongoDB
-      run: sudo service mongodb start
+
 
     - name: Run Tests
       run: |
